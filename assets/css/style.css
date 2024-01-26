@@ -13601,4 +13601,23 @@ html {
   }
 }
 
+.H_img{
+  margin-top: -90px;
+  width: 100%;
+}
+
+@media (max-width:780px) {
+  .H_img{
+    margin-top: -150px;
+    width: 100%;
+  }
+}
+
+@media (max-width:700px) {
+  .H_img{
+    margin-top: -100px;
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
