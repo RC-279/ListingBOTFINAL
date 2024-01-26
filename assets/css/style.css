@@ -12572,6 +12572,7 @@ button:focus {
   background-image: url(../images/Footer_bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 50px;
 }
 
 .foi-footer .footer-content {
@@ -12830,8 +12831,8 @@ html {
 }
 
 .foi-page-section {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 
 .about-section-two-title {
@@ -13286,4 +13287,95 @@ html {
   color: #ffffff;
 }
 
+.fimage {
+  width: 45%;
+  margin-left: -2%;
+  margin-top: 6%;
+}
+
+.fimage1 {
+  width: 45%;
+  margin-left: -2%;
+  margin-top: 0;
+}
+.fimage2 {
+  width: 45%;
+  margin-left: -2%;
+  margin-top: 0;
+}
+.fimage3 {
+  width: 45%;
+  margin-left: -2%;
+  margin-top: 0%;
+}
+.fimage4 {
+  width: 45%;
+  margin-left: -2%;
+  margin-top: 0%;
+}
+
+.fimagel {
+  width: 50%;
+  margin-top: 0;
+}
+.fimagel1 {
+  width: 50%;
+  margin-top: 0;
+}
+.fimagel2 {
+  width: 50%;
+  margin-top: 0;
+}
+.fimagel3 {
+  width: 50%;
+  margin-top: 0;
+}
+
+.mainHeading {
+  font-size: 370%;
+  font-weight: bold;
+  margin-left: 2%;
+  margin-top: 15%;
+}
+
+.subHeading {
+  font-size: 110%;
+  margin-left: 2%;
+  margin-top: -3%;
+  margin-right: 15%;
+}
+
+.centerio {
+  display: flex;
+  justify-content: center;
+}
+
+.checker1 {
+  width: 6%;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  display: inline-block;
+}
+
+.spacer {
+  margin-bottom: 2%;
+}
+
+.lefter {
+  margin-left: 7%;
+  margin-right: -3%;
+}
+
+.collefter {
+  margin-left: 4%;
+}
+
+.collefter2 {
+  margin-right: -10%;
+}
+
+.divspacer {
+  margin-top: 2%;
+}
 /*# sourceMappingURL=style.css.map */
