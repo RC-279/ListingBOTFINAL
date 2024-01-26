@@ -13634,3 +13634,178 @@ html {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.taber {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  /* Center the taber container */
+  position: relative;
+}
+
+/* Style for the taber buttons container (red box) */
+.taber-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  /* Red background */
+  border-radius: 15px;
+  overflow: hidden;
+  width: 25%;
+  padding: 5px 2.5px;
+  box-shadow: 0px 0px 4px 1px rgba(159, 151, 151, 0.48);
+  margin-top: 1%;
+  margin-bottom: 5px;
+}
+
+/* Style for taber buttons container (flex container) */
+.taber-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+/* Style for taber buttons */
+.taber button {
+  background-color: #ffffff4b;
+  /* Blue button background */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  flex: 1;
+  /* Distribute available space evenly between buttons */
+  padding: 15px 10px;
+  margin: 0% 3px;
+  transition: 0.3s;
+  border-radius: 13px;
+  /* Remove border-radius from buttons */
+}
+
+/* Style for taber buttons on hover */
+.taber button:hover {
+  background-color: #5555d134;
+  /* Darker blue on hover */
+  color: rgb(0, 0, 0);
+  /* Text color on hover */
+}
+
+/* Style for the active taber */
+.taber button.active {
+  background-color: #5555D1 !important;
+  /* Darker blue for the active taber */
+  color: white !important;
+  /* Text color for the active taber */
+}
+
+/* Style for the initial active taber */
+.initial-active-taber.active-default {
+  background-color: #5555D1 !important;
+  /* Darker blue for the initial active taber */
+  color: white !important;
+  /* Text color for the initial active taber */
+}
+
+/* Style for the content inside the taber */
+.tabcontent {
+  display: none;
+  padding: 20px;
+}
+
+.pricing-section {
+  background: url('../assets/Pheadingtop.png') center/cover no-repeat;
+  height: 680px;
+  /* Adjust the height as needed */
+  /* color: #fff; */
+}
+
+.pricing-content {
+  text-align: center;
+  padding: 150px 0;
+}
+
+@media (max-width:1204px) {
+  .taber-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      /* Red background */
+      border-radius: 15px;
+      overflow: hidden;
+      width: 32%;
+      padding: 3px 2.5px;
+      box-shadow: 0px 0px 4px 1px rgba(159, 151, 151, 0.48);
+      margin-top: 5%;
+      margin-bottom: 1%;
+  }
+}
+
+@media (max-width:768px) {
+  .taber-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      /* Red background */
+      border-radius: 15px;
+      overflow: hidden;
+      width: 40%;
+      padding: 3px 2.5px;
+      box-shadow: 0px 0px 4px 1px rgba(159, 151, 151, 0.48);
+      margin-top: 5%;
+      margin-bottom: 1%;
+  }
+}
+
+@media (max-width:700px) {
+  .taber-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      /* Red background */
+      border-radius: 15px;
+      overflow: hidden;
+      width: 40%;
+      padding: 3px 2.5px;
+      box-shadow: 0px 0px 4px 1px rgba(159, 151, 151, 0.48);
+      margin-top: 5%;
+      margin-bottom: 1%;
+  }
+}
+
+@media (max-width:425px) {
+  .taber-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      /* Red background */
+      border-radius: 15px;
+      overflow: hidden;
+      width: 80%;
+      padding: 3.4px 2.5px;
+      box-shadow: 0px 0px 4px 1px rgba(159, 151, 151, 0.48);
+      margin-top: 5%;
+      margin-bottom: 2%;
+  }
+}
+
