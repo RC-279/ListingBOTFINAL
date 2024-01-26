@@ -13297,6 +13297,7 @@ html {
   width: 45%;
   margin-left: -2%;
   margin-top: 0;
+  padding-top: 3%;
 }
 .fimage2 {
   width: 45%;
@@ -13329,6 +13330,7 @@ html {
 .fimagel3 {
   width: 50%;
   margin-top: 0;
+  padding-top: 3%;
 }
 
 .mainHeading {
@@ -13378,4 +13380,225 @@ html {
 .divspacer {
   margin-top: 2%;
 }
+
+@media(max-width:1024px) {
+  .reducer {
+      font-size: 320%;
+  }
+
+  .fimage1{
+    padding-top: 7%;
+  }
+  .fimage4{
+    padding-top: 7%;
+  }
+  .fimagel3{
+    padding-top: 7%;
+  }
+}
+
+@media (max-width:917px) {
+  .fimage {
+      width: 50%;
+      height: 50%;
+      margin-left: -2%;
+      margin-top: 6%;
+  }
+
+  .fimagel {
+      width: 50%;
+      height: 50%;
+      margin-top: 5%;
+      margin-right: -2%;
+  }
+
+  .mainHeading {
+      font-size: 200%;
+      font-weight: bold;
+      margin-left: 2%;
+      margin-top: 12%;
+  }
+
+  .subHeading {
+      font-size: 70%;
+      margin-left: 2%;
+      margin-top: -5%;
+      margin-right: 15%;
+  }
+
+  .checker1 {
+      width: 6%;
+      margin-left: 3%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      display: inline-block;
+  }
+
+  .dipslpayer {
+      display: inline-block;
+      font-size: 64%;
+  }
+
+  .divspacer {
+      margin-top: 3%;
+  }
+
+  .lefter {
+      margin-left: 10%;
+      margin-right: -3%;
+  }
+
+  .collefter {
+      margin-left: 9%;
+  }
+
+  .collefter2 {
+      margin-right: -10%;
+  }
+
+}
+
+@media (max-width:600px) {
+  .fimage {
+      width: 50%;
+      height: 50%;
+      margin-left: -2%;
+      margin-top: 6%;
+  }
+
+  .fimagel {
+      width: 50%;
+      height: 50%;
+      margin-top: 5%;
+      margin-right: -2%;
+  }
+
+  .mainHeading {
+      font-size: 200%;
+      font-weight: bold;
+      margin-left: 2%;
+      margin-top: 12%;
+  }
+
+  .subHeading {
+      font-size: 70%;
+      margin-left: 2%;
+      margin-top: -5%;
+      margin-right: 3%;
+  }
+
+  .checker1 {
+      width: 9%;
+      margin-left: 3%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      display: inline-block;
+  }
+
+  .dipslpayer {
+      display: inline-block;
+      font-size: 50%;
+  }
+
+  .divspacer {
+      margin-top: 3%;
+  }
+
+  .lefter {
+      margin-left: 0;
+      margin-right: 3%;
+  }
+
+  .collefter {
+      margin-left: 0;
+  }
+
+  .collefter2 {
+      margin-right: 0;
+  }
+
+  .reducer {
+      font-size: 170%;
+  }
+
+}
+
+@media (max-width:599px) {
+  .fimage {
+      width: 50%;
+      height: 50%;
+      margin-left: -2%;
+      margin-top: 6%;
+      display: none;
+  }
+
+  .fimagel {
+      width: 50%;
+      height: 50%;
+      margin-top: 5%;
+      margin-right: -2%;
+      display: none;
+  }
+
+  .mainHeading {
+      font-size: 200%;
+      font-weight: bold;
+      margin-left: 2%;
+      margin-top: 12%;
+  }
+
+  .subHeading {
+      font-size: 70%;
+      margin-left: 2%;
+      margin-top: -5%;
+      margin-right: 3%;
+  }
+
+  .checker1 {
+      width: 6%;
+      margin-left: 3%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      display: inline-block;
+  }
+
+  .dipslpayer {
+      display: inline-block;
+      font-size: 70%;
+  }
+
+  .divspacer {
+      margin-top: 3%;
+  }
+
+  .lefter {
+      margin-left: 0;
+      margin-right: 3%;
+  }
+
+  .collefter {
+      margin-left: 0;
+  }
+
+  .collefter2 {
+      margin-right: 0;
+  }
+
+}
+
+@media (max-width:320px) {
+  .dipslpayer {
+      display: inline-block;
+      font-size: 60%;
+  }
+
+  .checker1 {
+      width: 9%;
+      margin-left: 3%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      display: inline-block;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
