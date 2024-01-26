@@ -12569,7 +12569,7 @@ button:focus {
   padding-top: 0px;
   padding-bottom: 50px;
   background-color: #ffffff;
-  background-color: #6d6def ;
+  background-color: #4a4ae0 ;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 50px;
@@ -12729,10 +12729,10 @@ html {
 }
 
 .foi-header.landing-header {
-  background-image: url("../images/bg_1@2x.png"), url("../images/Bg_2@2x.png");
+  background-image: url("../images/bg_1@2x.png"), url("../images/herobg.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
-  background-size: 167px, 65%;
+  background-size: 167px, 85%;
   background-position: left bottom, right top;
 
 }
@@ -13627,4 +13627,10 @@ html {
   }
 }
 
+@media (max-width:500px) {
+  .H_img{
+    margin-top: -100px;
+    width: 80%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
